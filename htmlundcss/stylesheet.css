@@ -1,0 +1,38 @@
+body {
+  width: 100%;
+}
+
+.navbar-brand{
+  font-size: 100px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.navbar-nav {
+  font-style: helvetica;
+  font-weight: light;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.row {
+   padding-bottom:30px;
+   padding-top: 40px;
+   padding-left: 40px;
+}
+
+.work {
+  padding-top: 20px;
+  height:500px;
+}
+
+h2 {
+  padding-top: 50px;
+}
+
+h3 a {
+color: black;
+}
+
+.bild {
+  padding-left: 500px;
+}
