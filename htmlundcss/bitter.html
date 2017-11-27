@@ -9,54 +9,128 @@
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
   </head>
   <body>
+    	<div id="container_text">
 
-<div class="name">
-  <h1>Nicole Breuer</h1>
+    	<span class="header_toggle text1">
+    			<span class="addresse_cursor_up">nicole breuer<br><p id="role" style="display: inline;">nic.-breuer@web.de</p></span>
+    			 <span class="addresse_cursor_down" style="display: none;">nicole breuer<br>kommunikationsdesign</span>
+    			</span>
+    				<div id="address_more" class="text1"><p>reinickendorferstraße 63
+    				<br>13347 berlin
+    				<br>germany
+          </p><p>+ 49 (0) 176 30 587 106
+    				<br>nic.-breuer@web.de
+    				</p></div>
+    				<br><br><span id="menu_links" class="text1"><a href="index.html">about</a>&nbsp;&nbsp;<a href="work.html">work</a>&nbsp;&nbsp;<a href="about.html">about</a></span>
+    				<br><br><div id="buttons">
+    						 <a href="work.html" id="13">cholerika</a> <span class="buttons_type">collage</span><br>
+    						 <a href="Sanguiniker.html" id="12">phlegmatische Sanguiniker</a> <span class="buttons_type">collage</span><br>
+    						 <a href="melancholiker.html" id="8a">melancholische pykniker</a> <span class="buttons_type">collage</span><br>
+       					 <a href="bitter.html" id="8">bitter</a> <span class="buttons_type">type, editorial</span><br>
+       						 <a href="salzig.html" id="9">salzig</a> <span class="buttons_type">type, editorial</span><br>
+    						 <a href="DerSandmann.html" id="11">sandmann</a> <span class="buttons_type">editorial</span><br>
+    				    </p></div>
+    	</div>
 
-    <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="index.html"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index.html">home<span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="work.html">work</a>
-      <a class="nav-item nav-link" href="about.html">about</a>
+    <div id="items">
+    <!-- - - PROJEKT 01		cholerika - - -->
+    <div id="1" class="wrap">
+    	<div id="container_exhibit" class="text2 item">
+    	<div id="invert_button_01" class="invert_button">invert page</div>
+    		<div class="container_exhibit_info">
+    				<div class="info_col_1">
+
+    					<span class="projekt_info_toggle">
+    					    <span class="addresse_cursor_up">read info</span>
+    					    <span class="addresse_cursor_down" style="display: none;">close info</span>
+    					</span>
+    						<div class="projekt_info_more"><br>Collage					<br>year:&nbsp;2016					<br>type:&nbsp;poster						<br><p style="text-indent:20px; margin: 0%;">Im Zuge des zweiten Semesters bestand die Aufgabe ...						<br></p><p style="text-indent:20px; margin: 0%;">published in SLANTED Stencil						</p></div>
+
+    				</div>
+    		</div>
+    		<div class="container_exhibit_photo">
+    				<div><img id="zz" src="img/bitter.jpg" class="img_space"></div>
+    		</div>
+    	</div>
     </div>
-  </div>
-</nav>
 
-<div class="row">
-<div class="col-md-3">
-  <div class="Inhalt">
-    <p>
-    <h3>
-      <a href="work.html">Cholerika</a>
-    <br>/</br>
-    <a href="Sanguiniker.html">Phlegmatische Sanguiniker</a>
-    <br>/</br>
-    <a href="melancholiker.html">Melancholische Pykniker</a>
-    <br>/</br>
-      <a href="Bitter.html">Bitter</a>
-    <br>/</br>
-    <a href="salzig.html">Salzig</a>
-    <br>/</br>
-    <a href="DerSandmann.html">Der Sandmann</a>
-    <br>/</br>
-    <a href="Ikons.html">Ikons</a>
-    <h3>
-    </p>
-</div>
-</div>
-<div class="col-md-9">
-  <div class="Bild">
-<img src="img/bitter.jpg">
-</div>
-</div>
-</div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
-</html>
+      	<!-- INVERT PAGE -->
+
+      	<script>
+      	  $(function() {
+      	    $( "#invert_button_01" ).click(function() {
+      	      $( "html" ).toggleClass( "invert", 1000 );
+      		  $( ".projekt_info_more" ).toggleClass( "invert_to_black", 1000 );
+      		  $( ".projekt_info_toggle" ).toggleClass( "invert_to_black", 1000 );
+      	    });
+      	  });
+      	  </script>
+
+
+
+
+    </div>
+
+    	<script type="text/javascript">
+        $('.header_toggle span').each(function() {
+            $(this).on('click', function(){
+                $(this).parent().next().slideToggle();
+                $(this).parent().find('span').each(function(){
+                    $(this).toggle();
+
+                });
+            });
+        });
+    	</script>
+
+    	<!-- TOGGLE PROJEKT INFO! -->
+
+    	<script type="text/javascript">
+        $('.projekt_info_toggle span').each(function() {
+            $(this).on('click', function(){
+                $(this).parent().next().slideToggle();
+                $(this).parent().find('span').each(function(){
+                    $(this).toggle();
+
+                });
+            });
+        });
+
+
+    	</script>
+
+    	<!-- durch Projekte klicken -->
+    	<script type="text/javascript">
+    	$("#buttons a").click(function() {
+    	    var id = $(this).attr("id");
+    	    $("#items div.wrap").fadeOut(750).css("display", "none");
+    	    $("#items div#" + id + "").fadeIn(750).css("display", "block", "");
+    	});
+    	</script>
+
+
+    	<!-- ladebildschirm work -->
+    	<script type="text/javascript">
+    	jQuery(document).ready(function () {
+    	setTimeout(function(){ $("#loadingscreen").fadeOut(500); }, 4000);
+    	});
+    	</script>
+
+
+    	<!-- google_analytics -->
+    	<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-62168906-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+
+
+
+    </body>
