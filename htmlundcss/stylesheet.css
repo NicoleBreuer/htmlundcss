@@ -4,12 +4,15 @@ body {
 	margin-top: 0;
 }
 
-
-
-.container_text{
-  padding-top: 20px;
+.name h1{
+  font-size: 80px;
+  font-size: helvetica;
   padding-left: 30px;
+  color: black;
+  font-weight: bold;
+  padding-top: 30px;
 }
+
 .navbar-brand{
   font-size: 100px;
   font-weight: bold;
@@ -19,22 +22,20 @@ body {
   font-style: helvetica;
   font-weight: light;
   font-size: 25px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
-.row {
-   padding-bottom:40px;
-   padding-top: 20px;
-   padding-right: 150px;
+.row{
    padding-left: 40px;
+   padding-right: 150px;
+}
+.row h2{
+  font-size: 30px;
+}
+.work {
+  height:500px;
+  padding-top: 30px;
 }
 
-.work {
-  padding-top: 30px;
-  height:500px;
-}
-.Bild {
-  padding-top: 25px;
-}
 h2 {
   padding-top: 60px;
 }
