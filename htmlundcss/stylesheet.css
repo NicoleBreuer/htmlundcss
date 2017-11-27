@@ -1,6 +1,6 @@
 
   font-size: 12px;
-	font-family: helvetica, 'BACKUParial', 'Roboto', sans-serif;
+	font-family: helvetica,  sans-serif;
 
 }
 
@@ -81,7 +81,7 @@ a:hover {
 	white-space: nowrap;
 	margin-right: 3%;
 	z-index: 2;
-
+  color: blue;
 	margin-top: 2.5em;
 }
 
@@ -91,6 +91,7 @@ a:hover {
     -o-transition: color 0.2s linear;
     -moz-transition: color 0.2s linear;
     -webkit-transition: color 0.2s linear;
+
 }
 
 #address_more {
@@ -124,6 +125,7 @@ a:hover {
 	letter-spacing: 0.04em;
 	color: #D2D2D2;
 }
+
 
 #container_exhibit {
 	float: left;
@@ -166,6 +168,7 @@ a:hover {
 .addresse_cursor_up {
 	cursor:s-resize;
 	text-align: justify;
+  color: #969696;
 }
 
 .addresse_cursor_down {
@@ -179,12 +182,14 @@ a:hover {
 	padding-bottom: 1%;
 	padding-right: 3%;
 	background: white;
+  font-weight: bold;
 }
 
 .projekt_info_more {
 	background: white;
 	padding: 3%;
 	display: none;
+  font-weight: bold;
 }
 
 .invert_button {
@@ -208,10 +213,6 @@ a:hover {
 img {
 	width: 60%;
 	height: auto;
-}
-
-.hochformat {
-	width:50%!important;
 }
 
 .img_space {
